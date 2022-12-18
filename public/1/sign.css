@@ -1,0 +1,51 @@
+ul{
+    border:2px solid black;
+    margin:10px auto;
+    padding:5px;
+    background-color: #ccc;
+}
+li{
+    border:1px solid black;
+    padding:4px;
+    margin:10px auto;
+    list-style: none;
+}
+header, 
+footer,
+main {
+    border: 1px solid;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+}
+main {
+    top: 50px;
+    bottom: 50px;
+}
+footer {
+    bottom: 5px;
+    text-align: center;
+}
+.loginBlock {
+    margin: 30px auto;
+    width: 400px;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.loginBlock li {
+    border: 1px solid;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+.link {
+    color: blue;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+<div class="loginBlock">
+    <ul>
+        <li>
+            Username : <input id="uname" class="user" type="text" id="name">
+        </li>
+        <div id="uname_err" class="error">Username is Mandate</div>
+        <li>Password : <input id="upwd" class="user" type="password" onkeyup="validatepwd(event)"></li>
+        <div class="error" id="upwd_validate">Password Length should be greater than 8</div>
+        <li>Confirm Password : <input id="urpwd" class="user" type="password"></li>
+        <div id="upwd_err" class="error">Both Password should match</div>
+        <li>Mobile Number : <input id="umobile" class="user" type="number"></li>
+        <li>Email ID : <input id="uemail" class="user" type="email" placeholder="shoeb@example.com"></li>
+        <li><input  class="user" type="button" value="Sign Up"  onclick="registerDetails()"></li>
+        <div id="qp">Successfully regitered</div>
+        <span class="sl" onclick="loadPage('login')">Back TO Login</span>
+
+    </ul>
+</div>

@@ -1,0 +1,84 @@
+.tblock,
+.mblock,
+.bblock{
+    border:1px solid black;
+    padding:10px;
+    left:5px;
+    right:5px;
+    position:absolute;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tblock,
+.bblock{
+    text-align: center;
+    background-image: linear-gradient(60deg,pink,green,rgb(255, 17, 0));
+}
+
+.mblock{
+    top:60px;
+    bottom:55px;
+    background-color: cyan;
+    overflow: auto;
+}
+.bblock{
+    bottom:5px;
+}
+.msg {
+    border: 2px solid;
+    width: 450px ;
+    position: absolute;
+    top: 50px;
+    padding: 20px;
+    background-color: yellow;
+}
+.lblock,
+.rblock{
+    border:1px solid black;
+    margin:10px;
+    padding:10px;
+    float:left;
+    height:500px;
+}
+.lblock{
+    width:25%;
+}
+.rblock{
+    width:67%;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+.loginBlock{
+    border:1px solid black;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    width:450px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:10%;
+    left: 35%;
+    border-radius: 20px;
+    background-image: linear-gradient(60deg,blue,red);
+}
+.user{
+    border-radius: 12px;
+    border :skyblue solid 3px;
+}
+.error{
+    color:azure;
+    font-size: small;
+    display: none;
+}
+
+.s1{
+    font-weight: 50px;
+}
+#qp{
+    display: none;
+}

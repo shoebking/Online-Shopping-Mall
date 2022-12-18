@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="product.css">
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="javascripts/sign.js" ></script>
+    <script src="javascripts/signup.js"></script>
+    <script src="javascripts/dynamicproduct.js"></script>
+    <script src="javascripts/handlebars.js"></script>
+</head>
+<body>
+    <header class="tblock">Online Shopping Application</header>
+    <main class="mblock">
+        
+    </main>
+    <footer class="bblock">@ copy rights 2022</footer>
+    <div id="productTemplate">
+        <li>
+            <ul class="singleProduct">
+                <li>Product Name : {{name}}</li>
+                <li>Product Price : {{price}}</li>
+                <li>Manufacturer : {{manu}}</li>
+                <li><img src='{{image}}'></li>
+            </ul>
+        </li>
+    </div>
+</body>
+</html>

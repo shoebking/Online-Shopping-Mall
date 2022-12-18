@@ -1,0 +1,51 @@
+.productDetailsContainer > li {
+    float: left;
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+    list-style: none;
+}
+.productDetailsContainer > li:hover {
+    background-color: #ccc;
+}
+
+.singleProduct li {
+   list-style: none; 
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.singleProduct {
+    margin: 5px;
+    padding: 5px;
+    display: none;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+}
+
+.errorBlock {
+    width: 300px;
+    text-align: center;
+    border: 1px solid;
+    padding: 30px;
+    color: red;
+}
+
+.errorBlock,
+.loadingBlock {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    display: none;
+}
+
+.logout{
+    color: blue;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}

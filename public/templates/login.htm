@@ -1,0 +1,14 @@
+<div class="loginBlock">
+    <ul>
+        <li>
+            Username : <input id="uname" class="user" type="text" id="name">
+        </li>
+        <div id="uname_err" class="error">Username is Mandate</div>
+        <li>Password : <input id="upwd" class="user" type="password" onkeyup="validatepwd(event)"></li>
+        <div class="error" id="upwd_validate">Password Length should be greater than 8</div>
+        <li><input class="user" type="button" value="Login" onclick="getData()"></li>
+        <li class="sl" onclick="loadPage('signup')">Sign Up</li>
+        <li class="sl" onclick="loadPage('frgtpwd')">Forget Password?</li>
+        <li id="errBlockLogin"> </li>
+    </ul>
+</div>
